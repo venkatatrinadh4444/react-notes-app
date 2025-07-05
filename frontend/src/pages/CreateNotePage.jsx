@@ -9,7 +9,7 @@ export default function CreateNotePage() {
 
   const handleCreate = async () => {
     if (!title.trim()) return;
-    const res = await axios.post('http://localhost:8000/api/notes', { title });
+    const res = await axios.post('https://react-notes-app-7udq.onrender.com/api/notes', { title });
     navigate(`/note/${res.data._id}`);
   };
 

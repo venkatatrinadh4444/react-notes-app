@@ -78,7 +78,7 @@ MONGO_URI=mongodb+srv://venkatatrinadh4444:ZGktnAtQaMbaopHv@cluster0.qtyreqk.mon
 
 npm run dev
 
-This runs the Express server + WebSocket server on http://localhost:8000
+This runs the Express server + WebSocket server on https://react-notes-app-7udq.onrender.com
 
 🎨 Frontend Setup
 

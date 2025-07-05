@@ -4,7 +4,7 @@ import axios from "axios";
 import { io } from "socket.io-client";
 
 
-const socket = io("http://localhost:8000", {
+const socket = io("https://react-notes-app-7udq.onrender.com", {
   transports: ["websocket"],
   reconnectionAttempts: 5,
   reconnectionDelay: 1000,
@@ -21,7 +21,7 @@ export default function NoteEditorPage() {
 
   useEffect(() => {
     const fetchNote = async () => {
-      const res = await axios.get(`http://localhost:8000/api/notes/${id}`);
+      const res = await axios.get(`https://react-notes-app-7udq.onrender.com/api/notes/${id}`);
       setNote(res.data);
       setContent(res.data.content);
     };
