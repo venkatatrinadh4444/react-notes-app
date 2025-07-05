@@ -89,7 +89,7 @@ npm install
 
 npm run dev
 
-This runs the React app on http://localhost:5173
+This runs the React app on https://react-notes-app-gules.vercel.app
 
 🔄 Real-Time Collaboration (Socket.IO)
 
@@ -113,7 +113,7 @@ PUT /api/notes/:id - Update a note
 
 Start backend and frontend
 
-Open http://localhost:5173/note/<note_id> in two tabs
+Open https://react-notes-app-gules.vercel.app/note/<note_id> in two tabs
 
 Type in one tab and see it reflect in the other instantly
 

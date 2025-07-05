@@ -28,7 +28,7 @@ server.listen(PORT, () => {
 
 const io = require('socket.io')(server, {
   cors: {
-    origin: 'http://localhost:5173',
+    origin: 'https://react-notes-app-gules.vercel.app',
     methods: ['GET', 'POST'],
   },
 });
